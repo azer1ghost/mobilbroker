@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Branch;
 use App\Models\Faq;
+use App\Models\Option;
 use App\Models\Service;
 use TCG\Voyager\Models\Category;
 use TCG\Voyager\Models\Post;
@@ -83,6 +84,10 @@ class WebsiteController extends Controller
 
     public function calculator()
     {
-        return view('website.pages.calculator');
+
+        return view('website.pages.calculator')->with([
+            'options' => Option::options()->get(),
+            'currencies' => Option::currencies()->get()
+        ]);
     }
 }

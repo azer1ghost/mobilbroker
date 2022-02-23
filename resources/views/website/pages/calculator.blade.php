@@ -13,8 +13,9 @@
                             <label for="xif_derece">XİF MN üzrə kod</label>
                             <select name="say" id="xif_derece" class="form-control xif_derece">
                                 <option value=""> seçin</option>
-                                <option value="15"> 5806 20 000 0</option>
-                                <option value="15"> 4107 99 900 0</option>
+                                @foreach($options as $option)
+                                    <option value="{{$option->getAttribute('value')}}" name="{{$option->getAttribute('name')}}">{{$option->getAttribute('text')}}</option>
+                                @endforeach
                             </select>
                         </div>
                     </div>
@@ -30,9 +31,9 @@
                             <label for="">Valyuta</label>
                             <select name="say" id="invoys_valyuta" class="form-control ">
                                 <option value="" disabled="" selected="">seçin</option>
-                                <option value="1.7"> USD</option>
-                                <option value="1.8883">EUR</option>
-                                <option value="1.1683">AUD</option>
+                               @foreach($currencies as $currency)
+                                    <option value="{{$currency->getAttribute('value')}}">{{$currency->getAttribute('text')}}</option>
+                               @endforeach
                             </select>
                         </div>
                     </div>
@@ -50,9 +51,9 @@
                             <label for="">Valyuta</label>
                             <select name="say" id="dasinma_valyuta" class="form-control dasinma_valyuta ">
                                 <option value="" disabled="" selected="">seçin</option>
-                                <option value="1.7">USD</option>
-                                <option value="1.8883">EUR</option>
-                                <option value="1.1683">AUD</option>
+                                @foreach($currencies as $currency)
+                                    <option value="{{$currency->getAttribute('value')}}">{{$currency->getAttribute('text')}}</option>
+                                @endforeach
                             </select>
                         </div>
                     </div>
