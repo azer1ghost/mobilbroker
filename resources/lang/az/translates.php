@@ -7,7 +7,7 @@ return [
                             şassi nömrəsi, rəngi və s.) qabaqcadan Dövlət Gömrük Komitəsinin Mərkəzi Gömrük Ekspertizası İdarəsinə
                             təqdim edilməsi tələb olunur.',
     'calculator_button' => 'Hesabla',
-    'partners' => 'ORTAQLARIMIZ',
+    'partners' => 'DOSTLARIMIZ',
     'faqs' => 'Tez-Tez Verilən Suallar',
     'details' => 'Ətraflı',
     'branches' => 'Filiallar',
