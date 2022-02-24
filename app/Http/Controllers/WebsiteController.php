@@ -12,30 +12,6 @@ use TCG\Voyager\Models\Post;
 
 class WebsiteController extends Controller
 {
-
-    public function search(Request $request): object
-    {
-        $options = Option::options()->where('text', 'LIKE', "%{$request->get('search')}%")
-            ->limit(10)
-            ->get();
-
-        $optionsArray = [];
-
-        foreach ($options as $option) {
-            $optionsArray[] = [
-                "id"   => $option->id,
-                "text" => "{$option->text}",
-            ];
-        }
-
-        return (object) [
-            'results' => $optionsArray,
-            'pagination' => [
-                "more" => false
-            ]
-        ];
-    }
-
     public function homepage()
     {
         $meta = meta('homepage', ['body', 'excerpt', 'heading']);
@@ -105,14 +81,5 @@ class WebsiteController extends Controller
     public function contact()
     {
         return view('website.pages.contact');
-    }
-
-    public function calculator()
-    {
-
-        return view('website.pages.calculator')->with([
-            'options' => Option::options()->get(),
-            'currencies' => Option::currencies()->get()
-        ]);
     }
 }
