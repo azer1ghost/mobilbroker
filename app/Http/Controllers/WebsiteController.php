@@ -15,7 +15,7 @@ class WebsiteController extends Controller
 
     public function search(Request $request): object
     {
-        $options = Option::where('text', 'LIKE', "%{$request->get('search')}%")
+        $options = Option::options()->where('text', 'LIKE', "%{$request->get('search')}%")
             ->limit(10)
             ->get();
 
