@@ -16,9 +16,6 @@ Route::get('branch', [WebsiteController::class, 'branches'])->name('branches');
 Route::get('faq', [WebsiteController::class, 'faqs'])->name('faq');
 Route::get('contact', [WebsiteController::class, 'contact'])->name('contact');
 Route::get('who-we-are', [WebsiteController::class, 'whoWeAre'])->name('whoWeAre');
-Route::get('calculator', [WebsiteController::class, 'calculator'])->name('calculator');
-Route::any('/options/search', [WebsiteController::class, 'search'])->name('options.search');
-
 
 Localization::route();
 
