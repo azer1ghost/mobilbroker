@@ -6,11 +6,36 @@ use App\Models\Branch;
 use App\Models\Faq;
 use App\Models\Option;
 use App\Models\Service;
+use Illuminate\Http\Request;
 use TCG\Voyager\Models\Category;
 use TCG\Voyager\Models\Post;
 
 class WebsiteController extends Controller
 {
+
+    public function search(Request $request): object
+    {
+        $options = Option::where('text', 'LIKE', "%{$request->get('search')}%")
+            ->limit(10)
+            ->get();
+
+        $optionsArray = [];
+
+        foreach ($options as $option) {
+            $optionsArray[] = [
+                "id"   => $option->id,
+                "text" => "{$option->text}",
+            ];
+        }
+
+        return (object) [
+            'results' => $optionsArray,
+            'pagination' => [
+                "more" => false
+            ]
+        ];
+    }
+
     public function homepage()
     {
         $meta = meta('homepage', ['body', 'excerpt', 'heading']);
@@ -20,7 +45,7 @@ class WebsiteController extends Controller
     public function whoWeAre()
     {
         $meta = meta('who-we-are', ['body']);
-        return view('website.pages.whoWeAre', compact('meta'));
+        return view('website.pages.who-we-are', compact('meta'));
     }
 
     public function about()

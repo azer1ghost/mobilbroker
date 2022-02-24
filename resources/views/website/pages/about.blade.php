@@ -5,7 +5,9 @@
 
 @section('content')
     @include('website.components.banner', ['title' => $meta->get('title')])
+
     <main id="about-us">
+        <h1 class="text-center">Mobil Broker</h1>
         <div class="container pt-4">
             <div class="row my-2">
                 <div class="col-12">

@@ -11,7 +11,7 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="xif_derece">XİF MN üzrə kod</label>
-                            <select name="say" id="xif_derece" class="form-control xif_derece">
+                            <select name="say" data-url="{{route('options.search')}}" id="xif_derece" class="form-control xif_derece custom-select2">
                                 <option value=""> seçin</option>
                                 @foreach($options as $option)
                                     <option value="{{$option->getAttribute('value')}}" name="{{$option->getAttribute('name')}}">{{$option->getAttribute('text')}}</option>
@@ -29,7 +29,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="">Valyuta</label>
-                            <select name="say" id="invoys_valyuta" class="form-control ">
+                            <select name="say" id="invoys_valyuta" class="form-control">
                                 <option value="" disabled="" selected="">seçin</option>
                                @foreach($currencies as $currency)
                                     <option value="{{$currency->getAttribute('value')}}">{{$currency->getAttribute('text')}}</option>
@@ -196,10 +196,47 @@
 
 @endsection
 @section('scripts')
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
     <script>
+
+        const select2 = $('.select2');
+
+        // select2.select2({
+        //     theme: 'bootstrap4',
+        // });
+
+        select2.on('select2:open', function (e) {
+            document.querySelector('.select2-search__field').focus();
+        });
+
+        document.querySelectorAll('.custom-select2').forEach((e) => {
+            $(e).select2({
+                placeholder: "Search",
+                minimumInputLength: 3,
+                // theme: 'bootstrap4',
+                focus: true,
+                ajax: {
+                    delay: 500,
+                    url: $(e).data('url'),
+                    dataType: 'json',
+                    type: 'GET',
+                    data: function (params) {
+                        return {
+                            search: params.term,
+                        }
+                    }
+                }
+            })
+
+            $(e).on('select2:open', function (e) {
+                document.querySelector('.select2-search__field').focus();
+            });
+        });
+
         function hesabla() {
-
-
 //hesablayaq_invyos
 
             var invoys_valyuta = $("#invoys_valyuta").children("option:selected").val();
