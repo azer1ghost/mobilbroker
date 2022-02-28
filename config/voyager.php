@@ -111,8 +111,8 @@ return [
          */
         'locales' => [
             'az',
-            'en',
             'ru',
+            'en',
         ],
     ],
 
