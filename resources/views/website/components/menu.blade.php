@@ -1,4 +1,4 @@
-<ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-size: 20px">
     @php
         if (Voyager::translatable($items)) {
             $items = Cache::remember("menu_items", config('cache.timeout'), function () use ($items){
@@ -49,7 +49,7 @@
             }
         @endphp
         @if($item->status)
-            <li class="nav-item {{ $isActive }} @if($hasChildren) dropdown @endif">
+            <li class="nav-item mx-3 {{ $isActive }} @if($hasChildren) dropdown @endif">
                 <a class="nav-link @if($hasChildren) dropdown-toggle @endif"
                    @if($hasChildren) data-bs-toggle="dropdown" aria-expanded="false" @endif
                    href="{{ $item->link() }}"
