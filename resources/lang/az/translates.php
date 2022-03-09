@@ -24,7 +24,7 @@ return [
     'join_us' => 'Sürətli gömrük təmsilçiliyi',
     'communication' => 'Əlaqə Vasitələri',
     'menu' => 'Menyular',
-    'services' => 'Xidmətlərimiz',
+    'services' => 'XİDMƏTLƏRİMİZ',
     'online_contact' => 'Online Əlaqə',
     'rights' => 'Bütün hüquqlar qorunur.',
     'footer_description' => 'MOBIL GROUP-un törəmə şirkəti olan Mobil Broker MMC beynəlxalq təcrübə əsasında qurulan müasir gömrük təmsilçiliyidir. Mobil Broker 2017-cı ildən etibarən gömrük brokeri qismində fəaliyyətdədir. Böyük şəbəkəyə sahib olan şirkət kompleks gömrük xidmətləri',
