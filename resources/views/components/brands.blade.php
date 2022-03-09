@@ -1,5 +1,7 @@
 <section class="container brands">
-    <h1 class="text-center">@lang('translates.partners')</h1>
+    <div class="col-12">
+        <h1 class="text-center" style=" font-size: 2.6rem; color: #99cd08;">@lang('translates.partners')</h1>
+    </div>
     <div class="owl-carousel">
         @foreach($brands as $brand)
             <div class="item">
