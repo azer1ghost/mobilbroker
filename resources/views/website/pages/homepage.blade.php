@@ -11,7 +11,7 @@
         <div class="home-about-us">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <img src="{{asset(Voyager::image($meta->image()))}}" alt="{{$meta->get('heading') }}">
+                    <img style="border-radius: 15px" src="{{asset(Voyager::image($meta->image()))}}" alt="{{$meta->get('heading') }}">
                 </div>
                 <div class="col-12 col-md-6 pt-5 pt-md-0 ps-0 ps-md-5">
                     <h1 class="home-about-us-title">{!! $meta->get('heading') !!}</h1>

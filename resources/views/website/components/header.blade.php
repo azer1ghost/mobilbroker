@@ -38,13 +38,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container justify-content-center">
 
-            <div class="" id="navbarMenu">
-                {!! menu('website', 'website.components.menu') !!}
-            </div>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <div class="" id="navbarMenu">
+                {!! menu('website', 'website.components.menu') !!}
+            </div>
 
         </div>
     </nav>
