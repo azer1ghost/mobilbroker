@@ -21,7 +21,7 @@ return [
     'subject' => 'Mövzu',
     'note' => 'Qeyd',
     'send' => 'Göndər',
-    'join_us' => 'Gömrük təmsilçiliyindəki dostunuz',
+    'join_us' => 'Gömrük təmsilçiliyindəki Dostunuz',
     'communication' => 'Əlaqə Vasitələri',
     'menu' => 'Menyular',
     'services' => 'XİDMƏTLƏRİMİZ',
