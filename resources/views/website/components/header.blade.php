@@ -9,10 +9,6 @@
             <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
             <div class="header-top-right d-flex">
-{{--                <form class="search-form d-flex" action="#">--}}
-{{--                    <input type="text" placeholder="Axtar...">--}}
-{{--                    <button><i class="far fa-search"></i></button>--}}
-{{--                </form>--}}
                 <div class="dropdown language-dropdown">
                     <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span> {{ucfirst(app()->getLocale())}}
@@ -29,8 +25,7 @@
                     </div>
                 </div>
                 <div>
-                    <a href="{{setting('site.linkedin')}}" target="_blank"><i class="fab fa-linkedin-in mx-3"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><i class="fab fa-whatsapp me-2"></i></a>
+                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 18px"><i class="fab fa-whatsapp me-2"></i></span></a>
                 </div>
             </div>
         </div>
