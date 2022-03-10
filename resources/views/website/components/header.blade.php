@@ -42,7 +42,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="" id="navbarMenu">
+            <div class="collapse navbar-collapse" id="navbarMenu">
                 {!! menu('website', 'website.components.menu') !!}
             </div>
 
