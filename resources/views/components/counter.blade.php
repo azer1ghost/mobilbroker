@@ -3,7 +3,7 @@
         @foreach($counters as $counter)
             <div class="col-6 col-md-6 col-lg-3 py-5">
                 <div class="result-card d-flex flex-column">
-                    <span class="{{$counter->getAttribute('icon')}}"></span>
+                    <i class="{{$counter->getAttribute('icon')}}"></i>
                     <div class="result-card-content">
                         <div class="counter-result d-flex ">
                             +
@@ -16,3 +16,4 @@
         @endforeach
     </div>
 </section>
+

@@ -12011,6 +12011,3 @@ a.nav-link:hover::after {
     font-size: 13px;
   }
 }
-.icon-user-experience:before {
-  content: "\e900";
-}
