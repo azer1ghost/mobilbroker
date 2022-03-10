@@ -1,5 +1,5 @@
 <header>
-    <div class="header-top" style=" background-color: white; color:black">
+    <div class="header-top" style=" background-color: white; color:black;font-size: 20px">
         <div class="container d-flex justify-content-between align-items-center py-2" style="">
             <div class="header-top-left d-flex ">
                 <span class="address" style="color: black"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div>
-                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 16px"><i class="fab fa-whatsapp me-2"></i></span></a>
+                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 22px"><i class="fab fa-whatsapp me-2"></i></span></a>
                 </div>
                 <div>
                     <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
