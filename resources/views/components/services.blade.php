@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="title">@lang('translates.services')</h1>
+                <h1 class="text-center" style="font-size: 2.6rem; color: #99cd08;">@lang('translates.services')</h1>
             </div>
             @foreach($services as $service)
                 <div class="col-12 col-md-6 col-lg-4">
