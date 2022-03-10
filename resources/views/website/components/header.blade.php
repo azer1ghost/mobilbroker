@@ -41,11 +41,11 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                {!! menu('website', 'website.components.menu') !!}
+            <div class="d-flex justify-content-center">
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    {!! menu('website', 'website.components.menu') !!}
+                </div>
             </div>
-
         </div>
     </nav>
 </header>
