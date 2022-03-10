@@ -1,5 +1,5 @@
 <header>
-    <div class="header-top" style=" background-color: white; color:black;font-size: 20px">
+    <div class="header-top" style=" background-color: white; color:black;font-size: 18px">
         <div class="container d-flex justify-content-between align-items-center py-2" style="">
             <div class="header-top-left d-flex ">
                 <span class="address" style="color: black"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>
@@ -9,7 +9,15 @@
             <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
             <div class="header-top-right d-flex">
-                <div class="dropdown language-dropdown">
+
+                <div>
+                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 20px"><i class="fab fa-whatsapp me-2"></i></span></a>
+                </div>
+                <div class="mx-2">
+                    <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
+                </div>
+
+                <div class="dropdown language-dropdown mx-2">
                     <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span> {{ucfirst(app()->getLocale())}}
                     </div>
@@ -23,12 +31,6 @@
                             </li>
                         @endforeach
                     </div>
-                </div>
-                <div>
-                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 22px"><i class="fab fa-whatsapp me-2"></i></span></a>
-                </div>
-                <div>
-                    <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
                 </div>
             </div>
         </div>
