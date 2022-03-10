@@ -25,7 +25,10 @@
                     </div>
                 </div>
                 <div>
-                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 18px"><i class="fab fa-whatsapp me-2"></i></span></a>
+                    <a  href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 16px"><i class="fab fa-whatsapp me-2"></i></span></a>
+                </div>
+                <div>
+                    <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
                 </div>
             </div>
         </div>
