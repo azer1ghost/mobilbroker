@@ -15,7 +15,7 @@
                         <div class="advantage-overlay">
                             <p>{{$solution->getTranslatedAttribute('title')}}</p>
                             <span class="overlay-icon">
-                                <i class="{{$solution->getAttribute('icon')}}"></i>
+                                <i class="{{$solution->getAttribute('icon')}} icon"></i>
                             </span>
                         </div>
                     </div>
