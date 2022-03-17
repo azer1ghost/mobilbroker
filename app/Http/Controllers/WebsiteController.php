@@ -82,4 +82,8 @@ class WebsiteController extends Controller
     {
         return view('website.pages.contact');
     }
+    public function contactUs()
+    {
+        return view('website.pages.contact-us');
+    }
 }

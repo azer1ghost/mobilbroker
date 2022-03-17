@@ -2,7 +2,7 @@
     <div class="footer-top">
         <div class="container d-flex justify-content-between align-items-center">
             <h3>@lang('translates.join_us')</h3>
-            <a class="btn-black" href="{{route('contact')}}">@lang('translates.online_contact')</a>
+            <a class="btn-black" href="{{route('contactUs')}}">@lang('translates.online_contact')</a>
         </div>
     </div>
     <div class="footer-content">
