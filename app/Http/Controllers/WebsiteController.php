@@ -32,7 +32,7 @@ class WebsiteController extends Controller
 
     public function service(Service $service)
     {
-        $services = Service::active()->get();
+        $services = Service::active()->orderBy('ordering')->get();
         return view('website.pages.service', compact('service', 'services'));
     }
 
