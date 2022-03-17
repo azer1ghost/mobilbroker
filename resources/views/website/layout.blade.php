@@ -14,7 +14,7 @@
     <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/8c8aee1661/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/8e7d74ec64/UntitledProject/style.css">
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.pro.min.css') }}" >
     <link rel="stylesheet" href="{{ mix('assets/css/app.css') }}" >
     @yield('style')
