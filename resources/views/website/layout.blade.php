@@ -21,7 +21,7 @@
     @yield('style')
     <style>
         body {
-            color: white;
+            background-color: white;
         }
     </style>
 </head>
