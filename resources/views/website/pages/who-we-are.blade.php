@@ -5,18 +5,17 @@
 
 @section('content')
     @include('website.components.banner', ['title' => $meta->get('title')])
-    <main id="whoweare">
+    <main id="about-us">
         <div class="container pt-4">
             <div class="row my-2">
                 <div class="col-12">
                     <img src="{{asset(Voyager::image($meta->image()))}}" class="float-image float-image p-0 me-lg-4" alt="Whoweare image">
                     <h1 class="mb-4">Broker Kimdir</h1>
-                    <div class="whoweare-content pe-0 pe-md-4 whoweare-content-text text-justify">
+                    <div class="about-us-content pe-0 pe-md-4 about-us-text text-justify">
                         {!! $meta->get('body') !!}
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
 @endsection
