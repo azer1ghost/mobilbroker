@@ -7,7 +7,7 @@
     <main id="contact">
         <div class="container pt-4">
             <div class="row my-2 flex-md-row-reverse">
-                    <div class="col-12 col-md-4 mb-4">
+                    <div class="col-12 col-md-6">
                             <h4 class="footer-title">@lang('translates.communication')</h4>
                             <ul class="contact-info">
                                 <li class="m-2"><a class="footer-link text-primary" href="tel:{{setting('site.short_phone')}}"><i
