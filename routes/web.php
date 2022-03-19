@@ -17,6 +17,8 @@ Route::get('faq', [WebsiteController::class, 'faqs'])->name('faq');
 Route::get('contact', [WebsiteController::class, 'contact'])->name('contact');
 Route::get('contact-us', [WebsiteController::class, 'contactUs'])->name('contactUs');
 Route::get('who-we-are', [WebsiteController::class, 'whoWeAre'])->name('whoWeAre');
+Route::post('contact-us', [WebsiteController::class, 'contactForm'])->name('contact-form');
+
 
 Localization::route();
 

@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
 use App\Models\Branch;
+use App\Models\Contact;
 use App\Models\Faq;
 use App\Models\Option;
 use App\Models\Service;
@@ -85,5 +87,11 @@ class WebsiteController extends Controller
     public function contactUs()
     {
         return view('website.pages.contact-us');
+    }
+    public function contactForm(ContactRequest $request)
+    {
+        Contact::create($request->validated());
+
+        return redirect()->back();
     }
 }
