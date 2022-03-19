@@ -47,7 +47,7 @@ class WebsiteController extends Controller
     {
         return view('website.pages.articles')->with([
             'meta' => meta('articles'),
-            'posts' => Category::where('slug', 'blog')->first()->posts()->paginate(12)->withQueryString()
+            'posts' => Category::where('slug', 'blog')->first()->posts()->orderBy('ordering')->paginate(12)->withQueryString()
         ]);
     }
 
