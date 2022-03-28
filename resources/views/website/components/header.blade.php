@@ -8,7 +8,7 @@
 
             <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
-            <div class="header-top-right d-flex">
+            <div class="header-top-right d-flex" style="margin-right: 100px">
                 <div class="dropdown mx-2">
                     <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
@@ -16,7 +16,7 @@
                     </div>
                     <div class="dropdown-menu" aria-labelledby="language" style="min-width: auto !important;">
                         @foreach(config('voyager.multilingual.locales') as $locale)
-                            <li >
+                            <li>
                                 <a class="dropdown-item"  href="{{route('locale', $locale)}}">
                                     {{--                                    <span class="flag-icon flag-icon-{{$locale}}"></span>--}}
                                     {{ucfirst($locale)}}
