@@ -12,7 +12,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon', serif !important;
+    font-family: 'icomoon' !important;
     speak: never;
     font-style: normal;
     font-weight: normal;
@@ -25,8 +25,14 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-zeng:before {
+    content: "\e905";
+}
 .icon-bank:before {
     content: "\e900";
+}
+.icon-user-experience:before {
+    content: "\e904";
 }
 .icon-network:before {
     content: "\e901";

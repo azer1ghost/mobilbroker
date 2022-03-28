@@ -27,7 +27,8 @@
                 </div>
 
                 <div class="mx-2">
-                    <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}"><i style="font-size: 20px;color:#99cd08" class="fal fa-user-headset"></i>{{setting('site.short_phone')}}</a>
+                    <i  class="icon-zeng"></i>
+                    <a class="footer-link " style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
                 </div>
                 <div>
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08" class="fab fa-whatsapp me-2"></span></a>
