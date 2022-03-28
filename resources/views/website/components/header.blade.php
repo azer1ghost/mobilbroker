@@ -10,7 +10,7 @@
             </a>
             <div class="header-top-right d-flex" style="margin-right: 160px">
                 <div class="dropdown mx-2">
-                    <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class=" dropdown-toggle text-dark"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
                     </div>
