@@ -10,7 +10,7 @@
             </a>
             <div class="header-top-right d-flex" style="margin-right: 160px">
                 <div class="dropdown mx-2">
-                    <div class=" dropdown-toggle text-dark"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="dropdown-toggle text-dark"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
                     </div>
@@ -25,11 +25,12 @@
                         @endforeach
                     </div>
                 </div>
+
+                <div class="mx-2">
+                    <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}"><i style="font-size: 20px;color:#99cd08" class="fal fa-user-headset"></i>{{setting('site.short_phone')}}</a>
+                </div>
                 <div>
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08" class="fab fa-whatsapp me-2"></span></a>
-                </div>
-                <div class="mx-2">
-                    <a class="footer-link" style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
                 </div>
 
 
