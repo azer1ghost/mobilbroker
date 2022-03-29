@@ -10,11 +10,11 @@
             <div class="header-top-right d-flex" style="margin-right: 108px;color: #111f6e">
 
                 <div style="margin-right: 90px">
-                    <a style="color: #111f6e;font-size: 23px" class="icon-call-center-1" href="tel:{{setting('site.short_phone')}}"></a>
+                    <a style="color: #111f6e;font-size: 25px" class="icon-call-center-1" href="tel:{{setting('site.short_phone')}}"></a>
 {{--                    <a class="icon-call-center-1" style="color: black" href="tel:{{setting('site.short_phone')}}"></a>--}}
                 </div>
 
-                <div style="margin-right: 10px">
+                <div style="margin-right: 15px">
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
                 </div>
 
