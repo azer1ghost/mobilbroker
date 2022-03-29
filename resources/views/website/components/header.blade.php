@@ -4,11 +4,11 @@
 {{--            <div class="header-top-left d-flex ">--}}
 {{--                <span class="address" style="color: black"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>--}}
 {{--            </div>--}}
-            <a class="navbar-brand" style="margin-left: 120px" href="{{route('homepage')}}">
+            <a class="navbar-brand" style="margin-left: 115px" href="{{route('homepage')}}">
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
             <div class="header-top-right d-flex" style="margin-right: 120px;color: #111f6e">
-                <div class="dropdown" style="margin-right: 40px">
+                <div class="dropdown" style="margin-right: 35px">
                     <div class="dropdown-toggle"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
