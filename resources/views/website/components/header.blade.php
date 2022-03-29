@@ -1,12 +1,11 @@
 <header>
     <div class="header-top" style=" background-color: white; color:black;font-size: 18px">
-        <div class="container d-flex justify-content-between align-items-center py-2" style="">
+        <div class="container d-flex justify-content-between align-items-center py-2" >
 {{--            <div class="header-top-left d-flex ">--}}
 {{--                <span class="address" style="color: black"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>--}}
 {{--            </div>--}}
             <a class="navbar-brand" style="margin-left: 160px" href="{{route('homepage')}}">
-
-            <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
+                <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
             <div class="header-top-right d-flex" style="margin-right: 160px">
                 <div class="dropdown mx-2">
@@ -26,15 +25,14 @@
                     </div>
                 </div>
 
-                <div class="mx-2">
+                <div class="mx-5">
                     <i  class="icon-zeng"></i>
                     <a class="footer-link " style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
                 </div>
+
                 <div>
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08" class="fab fa-whatsapp me-2"></span></a>
                 </div>
-
-
             </div>
         </div>
     </div>
