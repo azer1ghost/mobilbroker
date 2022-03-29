@@ -15,7 +15,7 @@
                 </div>
 
                 <div style="margin-right: 15px">
-                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
+                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
                 </div>
 
                 <div class="dropdown" style="margin-left: 20px">
