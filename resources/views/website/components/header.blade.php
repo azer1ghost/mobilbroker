@@ -7,7 +7,7 @@
             <a class="navbar-brand" style="margin-left: 160px" href="{{route('homepage')}}">
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
-            <div class="header-top-right d-flex" style="margin-right: 160px">
+            <div class="header-top-right d-flex" style="margin-right: 150px">
                 <div class="dropdown mx-2">
                     <div class="dropdown-toggle text-dark"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
