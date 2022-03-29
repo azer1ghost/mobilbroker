@@ -26,7 +26,7 @@
                 </div>
 
                 <div style="margin-right: 40px">
-                    <a style="color: #111f6e;font-size: 23px" class="icon-call-center-1" href="tel:{{setting('site.short_phone')}}"></a>
+                    <i style="color: #111f6e;font-size: 23px" class="icon-call-center-1" href="tel:{{setting('site.short_phone')}}"></i>
 {{--                    <a class="icon-call-center-1" style="color: black" href="tel:{{setting('site.short_phone')}}"></a>--}}
                 </div>
 
