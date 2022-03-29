@@ -11984,6 +11984,13 @@ a.nav-link:hover::after {
     max-width: max-content;
   }
 }
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 15px;
+  }
+}
 @media (max-width: 768px) {
   html {
     font-size: 13px;
