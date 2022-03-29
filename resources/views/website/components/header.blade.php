@@ -18,7 +18,7 @@
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
                 </div>
 
-                <div class="dropdown" style="margin-right: 20px">
+                <div class="dropdown" style="margin-left: 20px">
                     <div class="dropdown-toggle"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
