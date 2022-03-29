@@ -165,6 +165,10 @@ a.nav-link {
         background-color: var(--color-white);
         transition: all 0.3s;
     }
+
+    &:hover::after {
+        width: 90%;
+    }
 }
 
 .dropdown-toggle::after {
