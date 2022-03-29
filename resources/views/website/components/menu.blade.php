@@ -69,16 +69,16 @@
                         @endforeach
                     </ul>
                 @elseif($hasChildren)
-                <ul class="dropdown-menu">
-                    @foreach ($originalItem->children as $child)
-                        <li>
-                            <a class="dropdown-item" href="{{ $child->link() }}" target="{{ $child->target }}">
-                                {!! $icon !!}
-                                {{ $child->title }}
-                            </a>
-                        </li>
-                    @endforeach
-                </ul>
+                    <ul class="dropdown-menu">
+                        @foreach ($originalItem->children as $child)
+                            <li>
+                                <a class="dropdown-item" href="{{ $child->link() }}" target="{{ $child->target }}">
+                                    {!! $icon !!}
+                                    {{ $child->title }}
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
                 @endif
             </li>
         @endif
