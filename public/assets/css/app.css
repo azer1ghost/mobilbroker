@@ -11984,7 +11984,7 @@ a.nav-link:hover::after {
     max-width: max-content;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
