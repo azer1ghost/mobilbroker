@@ -11944,21 +11944,6 @@ a.nav-link:hover::after {
 .sosial-icons a:hover {
   color: var(--color-white);
 }
-.sosial-icons .facebook-icon {
-  background-color: #1877f2;
-}
-.sosial-icons .instagram-icon {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-}
-.sosial-icons .twitter-icon {
-  background-color: #1da1f2;
-}
-.sosial-icons .linkedin-icon {
-  background-color: #0a66c2;
-}
-.sosial-icons .youtube-icon {
-  background-color: #f00;
-}
 
 .contact-info i {
   width: 20px;
