@@ -8,7 +8,7 @@
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
             <div class="header-top-right d-flex" style="margin-right: 143px;color: #111f6e">
-                <div class="dropdown mx-5">
+                <div class="dropdown" style="margin-right: 80px">
                     <div class="dropdown-toggle"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
