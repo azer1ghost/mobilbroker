@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-4">
-                    <img src="{{Voyager::image(setting('footer.logo'))}}" alt="">
+                    <img src="{{Voyager::image(setting('site.footer_logo'))}}" alt="">
                     <p class="footer-text">
                         @lang('translates.footer_description')
                     </p>
