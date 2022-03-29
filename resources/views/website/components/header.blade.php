@@ -7,13 +7,13 @@
             <a class="navbar-brand" style="margin-left: 150px" href="{{route('homepage')}}">
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
-            <div class="header-top-right d-flex" style="margin-right: 142px">
+            <div class="header-top-right d-flex" style="margin-right: 142px;color: #111f6e">
                 <div class="dropdown mx-2">
-                    <div class="dropdown-toggle text-dark"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="dropdown-toggle"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
                     </div>
-                    <div class="dropdown-menu" aria-labelledby="language" style="min-width: auto !important;">
+                    <div class="dropdown-menu" aria-labelledby="language" style="min-width: auto !important;color: #111f6e">
                         @foreach(config('voyager.multilingual.locales') as $locale)
                             <li>
                                 <a class="dropdown-item"  href="{{route('locale', $locale)}}">
@@ -26,12 +26,12 @@
                 </div>
 
                 <div class="mx-5">
-                    <i  class="icon-zeng"></i>
-                    <a class="footer-link " style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>
+                    <i style="color: #111f6e;font-size: 23px" class="icon-call-center-1"></i>
+{{--                    <a class="footer-link " style="color: black" href="tel:{{setting('site.short_phone')}}">{{setting('site.short_phone')}}</a>--}}
                 </div>
 
                 <div>
-                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08" class="fab fa-whatsapp me-2"></span></a>
+                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color:#99cd08;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
                 </div>
             </div>
         </div>
