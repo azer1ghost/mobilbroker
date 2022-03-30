@@ -16,7 +16,7 @@
                     <div class="mb-3 sosial-icons d-flex align-items-center">
                         @foreach($socials as $social)
                             <a href="{{$social->link}}" target="_blank" class="{{$social->name}}-icon">
-                                <i class="fab fa-{{$social->name}}"></i>
+                                <i class="fab fa-{{$social->name}} fa-2x"></i>
                             </a>
                         @endforeach
                     </div>

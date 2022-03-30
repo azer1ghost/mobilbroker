@@ -669,25 +669,25 @@ a.nav-link {
         }
     }
 
-    .facebook-icon {
-        background-color: #1877f2;
-    }
-
-    .instagram-icon {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-    }
-
-    .twitter-icon {
-        background-color: #1da1f2;
-    }
-
-    .linkedin-icon {
-        background-color: #0a66c2;
-    }
-
-    .youtube-icon {
-        background-color: #f00;
-    }
+    //.facebook-icon {
+    //    background-color: #1877f2;
+    //}
+    //
+    //.instagram-icon {
+    //    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    //}
+    //
+    //.twitter-icon {
+    //    background-color: #1da1f2;
+    //}
+    //
+    //.linkedin-icon {
+    //    background-color: #0a66c2;
+    //}
+    //
+    //.youtube-icon {
+    //    background-color: #f00;
+    //}
 }
 
 .contact-info i {
@@ -732,6 +732,13 @@ a.nav-link {
     }
 }
 
+@media (max-width: 1366px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 15px;
+    }
+}
 @media (max-width: 768px) {
     html {
         font-size: 13px;

@@ -8,7 +8,17 @@
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
             <div class="header-top-right d-flex" style="margin-right: 108px;color: #111f6e">
-                <div class="dropdown" style="margin-right: 76px">
+
+                <div style="margin-right: 84px">
+                    <a style="color: #111f6e;font-size: 25px" class="icon-call-center-1" href="tel:{{setting('site.short_phone')}}"></a>
+{{--                    <a class="icon-call-center-1" style="color: black" href="tel:{{setting('site.short_phone')}}"></a>--}}
+                </div>
+
+                <div style="margin-right: 15px">
+                    <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
+                </div>
+
+                <div class="dropdown" style="margin-left: 20px">
                     <div class="dropdown-toggle"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
@@ -36,7 +46,7 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
             <button class="navbar-toggler ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
