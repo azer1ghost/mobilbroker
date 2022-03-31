@@ -4,29 +4,29 @@
 {{--            <div class="header-top-left d-flex ">--}}
 {{--                <span class="address" style="color: black"><i class="far fa-map-marker-alt"></i> {{setting('site.address')}}</span>--}}
 {{--            </div>--}}
-            <a class="navbar-brand header-logo" style="margin-left: 115px" href="{{route('homepage')}}">
+            <a class="navbar-brand header-logo" href="{{route('homepage')}}">
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
-            <div class="header-top-right d-flex header-icons" style="margin-right: 113px;color: #111f6e">
+            <div class="header-top-right d-flex header-icons">
 
-                <div class="header-call" style="margin-right: 65px">
+                <div class="header-call">
                     <a style="color: #111f6e;font-size: 25px" class="icon-tel" href="tel:{{setting('site.short_phone')}}"></a>
 {{--                    <a class="icon-call-center-1" style="color: black" href="tel:{{setting('site.short_phone')}}"></a>--}}
                 </div>
 
-                <div style="margin-right: 15px" class="header-whatsapp">
+                <div class="header-whatsapp">
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
                 </div>
 
-                <div class="dropdown" style="margin-left: 20px">
-                    <div class="dropdown-toggle"  id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown head-lang">
+                    <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
                         {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
                         {{ucfirst(app()->getLocale())}}
                     </div>
                     <div class="dropdown-menu" aria-labelledby="language" style="min-width: auto !important;color: #111f6e">
                         @foreach(config('voyager.multilingual.locales') as $locale)
                             <li>
-                                <a class="dropdown-item"  href="{{route('locale', $locale)}}">
+                                <a class="dropdown-item" href="{{route('locale', $locale)}}">
                                     {{--                                    <span class="flag-icon flag-icon-{{$locale}}"></span>--}}
                                     {{ucfirst($locale)}}
                                 </a>
