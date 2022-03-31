@@ -7,9 +7,9 @@
             <a class="navbar-brand header-logo" style="margin-left: 115px" href="{{route('homepage')}}">
                 <img src="{{asset( Voyager::image(setting('site.logo')) ?? '/assets/images/logo-white.png') }}" width="150" alt="{{config('app.name')}}" >
             </a>
-            <div class="header-top-right d-flex header-icons" style="margin-right: 110px;color: #111f6e">
+            <div class="header-top-right d-flex header-icons" style="margin-right: 113px;color: #111f6e">
 
-                <div class="header-call" style="margin-right: 75px">
+                <div class="header-call" style="margin-right: 68px">
                     <a style="color: #111f6e;font-size: 25px" class="icon-tel" href="tel:{{setting('site.short_phone')}}"></a>
 {{--                    <a class="icon-call-center-1" style="color: black" href="tel:{{setting('site.short_phone')}}"></a>--}}
                 </div>
