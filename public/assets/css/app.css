@@ -12011,6 +12011,27 @@ a.nav-link:hover::after {
     padding-left: 0.5rem;
     font-size: 15px;
   }
+
+  .header-logo {
+    margin-left: 110px;
+  }
+
+  .header-whatsapp {
+    margin-right: 10px;
+  }
+
+  .header-icons {
+    margin-right: 108px;
+    color: #111f6e;
+  }
+
+  .header-call {
+    margin-right: 45px;
+  }
+
+  .head-lang {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 768px) {
   html {
