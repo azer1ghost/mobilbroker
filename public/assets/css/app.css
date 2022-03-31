@@ -12017,7 +12017,7 @@ a.nav-link:hover::after {
   }
 
   .header-whatsapp {
-    margin-right: 2px;
+    margin-right: 0;
   }
 
   .header-icons {
@@ -12026,7 +12026,7 @@ a.nav-link:hover::after {
   }
 
   .header-call {
-    margin-right: 30px;
+    margin-right: 35px;
   }
 
   .head-lang {
