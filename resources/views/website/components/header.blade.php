@@ -9,7 +9,7 @@
             </a>
             <div class="header-top-right d-flex header-icons" style="margin-right: 113px;color: #111f6e">
 
-                <div class="header-call" style="margin-right: 68px">
+                <div class="header-call" style="margin-right: 65px">
                     <a style="color: #111f6e;font-size: 25px" class="icon-tel" href="tel:{{setting('site.short_phone')}}"></a>
 {{--                    <a class="icon-call-center-1" style="color: black" href="tel:{{setting('site.short_phone')}}"></a>--}}
                 </div>
