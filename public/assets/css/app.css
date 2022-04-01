@@ -12041,6 +12041,15 @@ a.nav-link:hover::after {
   html {
     font-size: 13px;
   }
+
+  .card-img-top {
+    height: 304px;
+  }
+}
+@media (max-width: 1200px) {
+  .card-img-top {
+    height: 232px;
+  }
 }
 .slide-image {
   -webkit-clip-path: ellipse(150% 100% at 50% 0);
