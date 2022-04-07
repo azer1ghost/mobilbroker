@@ -19,7 +19,6 @@
                     <div class="news-detail-container">
                         <div class="news-detail-header">
                             <h3 class="news-detail-title">{{$post->getTranslatedAttribute('title')}}</h3>
-                            <p class="news-date">{{$post->created_at->translatedFormat('d M, Y')}}</p>
                         </div>
                         <div class="news-detail-img">
                             <img src="{{asset(Voyager::image($post->getAttribute('image')))}}" alt="{{$post->getTranslatedAttribute('title')}}">
@@ -37,6 +36,8 @@
                             <li><a href="{{$share['url']}}"><i class="fab fa-{{$share['icon']}}"></i></a></li>
                         @endforeach
                     </ul>
+                    <p class="news-date float-end">{{$post->created_at->translatedFormat('d M, Y')}}</p>
+
                 </div>
             </div>
         </div>
