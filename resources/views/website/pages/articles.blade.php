@@ -9,7 +9,7 @@
             <div class="row my-2">
                 @foreach($posts as $post)
                     <div class="col-12 col-md-4 col-lg-3 my-2">
-                        <div class="card shadow-sm blog-card" style="height: 466px">
+                        <div class="card shadow-sm blog-card">
                             <img src="{{asset(Voyager::image($post->getAttribute('image')))}}" class="card-img-top" alt="{{$post->getTranslatedAttribute('title')}}">
                             <div class="card-body">
                                 <a href="{{route('article', $post)}}">
