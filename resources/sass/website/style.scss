@@ -783,29 +783,25 @@ a.nav-link {
         margin-left: 20px;
     }
 }
-@media (max-width: 768px) {
-    html {
-        font-size: 13px;
-    }
-    .card-img-top {
-        height: 304px;
-    }
-    .blog-card {
-        height: 360px;
-    }
-    //.advantages-title, .advantages-text {
-    //    width: 100%;
-    //    padding: 1rem;
-    //}
-}
-@media (max-width: 1200px) {
-    .card-img-top {
-        height: 232px;
-    }
-    .blog-card {
-        height: 360px;
-    }
-}
+//@media (max-width: 768px) {
+//    html {
+//        font-size: 13px;
+//    }
+//    .card-img-top {
+//        height: 304px;
+//    }
+//    .blog-card {
+//        height: 360px;
+//    }
+
+//@media (max-width: 1200px) {
+//    .card-img-top {
+//        height: 232px;
+//    }
+//    .blog-card {
+//        height: 360px;
+//    }
+//}
 .slide-image{
     clip-path: ellipse(150% 100% at 50% 0);
 }

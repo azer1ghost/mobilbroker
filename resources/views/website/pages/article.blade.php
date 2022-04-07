@@ -12,7 +12,6 @@
 @endsection
 
 @section('content')
-    @include('website.components.banner', ['title' => $post->getTranslatedAttribute('title')])
     <main id="blog">
         <div class="container py-4">
             <div class="row my-2">
