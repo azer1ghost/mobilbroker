@@ -20,7 +20,7 @@
         <x-mission/>
         <br>
         <div class="container">
-            <x-certificate/>
+{{--            <x-certificate/>--}}
             <div class="container" style="background-image: url("{{asset('assets/images/mbroker.jpg')}}")>
                 <div class="row">
                     <div class="col-12">
