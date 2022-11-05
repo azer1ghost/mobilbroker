@@ -19,29 +19,8 @@
         </div>
         <x-mission/>
         <br>
-        <div class="container">
-{{--            <x-certificate/>--}}
-            <div class="container" style="background-image: url("{{asset('assets/images/mbroker.jpg')}}")>
-                <div class="row">
-                    <div class="col-12">
-{{--                      <div style="background-image: url("{{asset('assets/images/AA.jpg')}}");">--}}
-                      <div class="col-12" style="background-color: green;" >
-{{--                          <img src="{{asset('assets/images/mbroker.jpg')}}" alt="">--}}
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="py-3">
-            <div class="accordion m-0" id="documents-accordion">
-                <div class="card">
-                    <p class="mb-0" type="button" data-toggle="collapse" data-target="#document-files" style="font-size: 100px">
-                        <i class="fa fa-folder"></i>
-                        <span class="badge badge-secondary"></span>
-                    </p>
-                </div>
-           </div>
-        </div>
+
+
         <x-counter/>
     </main>
 @endsection
