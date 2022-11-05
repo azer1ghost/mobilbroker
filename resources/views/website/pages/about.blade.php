@@ -16,6 +16,13 @@
                     </div>
                 </div>
             </div>
+
+
+        </div>
+        <x-mission/>
+        <br>
+        <div class="container">
+            <x-certificate/>
             <x-counter/>
         </div>
     </main>

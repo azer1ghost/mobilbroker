@@ -15,6 +15,7 @@ return [
     'name' => 'Name Surname',
     'email' => 'Email',
     'phone' => 'Phone',
+    'certificates' => 'Certificates',
     'subject' => 'Subject',
     'note' => 'Note',
     'send' => 'Send',
