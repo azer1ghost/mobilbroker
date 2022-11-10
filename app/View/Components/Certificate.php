@@ -12,7 +12,7 @@ class Certificate extends Component
     public function __construct()
     {
         $this->certificates = Cache::remember("homepage_certificates", config('cache.timeout'), function (){
-            return \App\Models\Certificate::active()->orderBy('ordering')->get();
+            return \App\Models\Certification::active()->orderBy('ordering')->get();
         });
     }
 
