@@ -18,9 +18,8 @@
             </div>
         </div>
         <x-mission/>
+        <x-certificate/>
         <br>
-
-
         <x-counter/>
     </main>
 @endsection
