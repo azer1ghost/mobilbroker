@@ -13,6 +13,8 @@ class Certificate extends Model
 {
     use SoftDeletes;
 
+    protected $table = 'certificates';
+
     public function scopeActive($query)
     {
         return $query->where('status', true);
