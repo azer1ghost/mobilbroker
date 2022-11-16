@@ -1,4 +1,4 @@
-<section class="mission" style="background-image: url('{{asset('assets/images/cover.jpg')}}'); height: 600px;">
+<section class="mission mt-5" style="background-image: url('{{asset('assets/images/cover.jpg')}}'); height: 600px;">
     <div class="container">
         <div class="row">
             <div class="col-12">
