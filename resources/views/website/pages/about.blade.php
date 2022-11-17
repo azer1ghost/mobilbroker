@@ -20,6 +20,9 @@
         </div>
         <x-counter/>
         <x-mission/>
+
+
         <x-certificate/>
+
     </main>
 @endsection

@@ -53,10 +53,12 @@
         }
     }
 </style>
-<section class="container certificates mt-5">
-    <div class="col-12">
-        <h1 class="text-center" style="font-size: 2.6rem; color: #99cd08;">@lang('translates.certificates')</h1>
-    </div>
+<div class="col-12" style="background-color: #111f6e">
+    <h1  class="text-center p-2" style="font-size: 2.25rem; color: #99cd08;">@lang('translates.certificates')</h1>
+</div>
+<div style="background-color: rgba(172,174,194,0.94)">
+<section class="container certificates mb-2 ">
+
     <div class="brands owl-carousel mt-1" >
         @foreach($certificates as $certificate)
             <div class="item">
@@ -69,6 +71,7 @@
         <img class="modal-content" id="img01">
     </div>
 </section>
+</div>
 
 <script>
     var modal = document.getElementById("myModal");
