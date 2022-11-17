@@ -60,7 +60,7 @@
     <div class="brands owl-carousel mt-1" >
         @foreach($certificates as $certificate)
             <div class="item">
-                    <img id="myImg" src="{{asset(Voyager::image($certificate->getAttribute('image')))}}" height="250" width="500" alt="{{$certificate->getAttribute('title')}}">
+                    <img id="myImg" src="{{asset(Voyager::image($certificate->getAttribute('image')))}}" alt="{{$certificate->getAttribute('title')}}">
             </div>
         @endforeach
     </div>
