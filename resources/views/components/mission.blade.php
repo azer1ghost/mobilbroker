@@ -1,4 +1,4 @@
-<section class="mission mt-5" style="background-image: url('{{asset('assets/images/cover.jpg')}}'); height: 600px;">
+<section class="mission mt-5" style=" height: 600px;">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -13,22 +13,22 @@
                                 <h1 class="service-card-title">
                                     Məqsəd
                                 </h1>
-                                <h4 class="service-card-text">
+                                <p class="service-card-text">
                                     Mobil Broker olaraq, işimizin məqsədi yerli və
                                     xarici vətəndaşları, fiziki və hüquqi şəxsləri
                                     fəaliyyət isqamətlərimizdə xidməmizlə təmin
                                     etməkdir
-                                </h4>
+                                </p>
                                 </div>
                                 <div class="col-md-6">
                                 <h1 class="service-card-title">
                                     Prinsiplər
                                 </h1>
-                                <h4 class="service-card-text">
+                                <p class="service-card-text">
                                     Operavlik, şəffaflıq, dəqiqlik və məsuliyyətlilik!
                                     Biz bu iş prinsiplərimizlə müştərilərimizin işlərini
                                     minimum vaxtda, ən sərfəli şəkildə yerinə yeririk
-                                </h4>
+                                </p>
                                 </div>
                             </div>
 
@@ -37,24 +37,24 @@
                                     <h1 class="service-card-title">
                                         Hədəf
                                     </h1>
-                                    <h4 class="service-card-text">
+                                    <p class="service-card-text">
                                         Bizim hədəfimiz yenilikçi addımlarla
                                         çeşidimizi arrmaq, fəaliyyət
                                         sahəmizüzrə ölkədə və beynəlxalq miqyasda
                                         qabaqcıl şirkət olmaqdır.
-                                    </h4>
+                                    </p>
                                 </div>
                                 <div class="col-md-6">
                                     <h1 class="service-card-title">
                                         Dəyərlər
                                     </h1>
-                                    <h4 class="service-card-text">
+                                    <p class="service-card-text">
                                         Bizim işimizin mərkəzində müştəri fenomeni
                                         dayanır. İş prinsiplərimiz də müştəri
                                         məmnuniyyənə köklənib.
                                         Biz müştəri və şirkət dostluğuna inanır,
                                         əlaqələrimizə hər zaman dəyər veririk.
-                                    </h4>
+                                    </p>
                                 </div>
                             </div>
 

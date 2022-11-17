@@ -5,6 +5,7 @@
 
 @section('content')
     @include('website.components.banner', ['title' => $meta->get('title')])
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/zooming.min.js'></script>
     <main id="about-us">
         <div class="container pt-4">
             <div class="row my-2">
@@ -17,9 +18,9 @@
                 </div>
             </div>
         </div>
+        <x-counter/>
         <x-mission/>
         <x-certificate/>
         <br>
-        <x-counter/>
     </main>
 @endsection
