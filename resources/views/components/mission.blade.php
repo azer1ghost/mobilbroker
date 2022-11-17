@@ -1,13 +1,13 @@
-<section class="mission mt-5" style=" height: 600px;">
+<section class="mission mt-1" style=" height: 400px;">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center" style="font-size: 2.6rem; color: #99cd08;"></h1>
             </div>
 
-                <div class="col-12 pt-5">
+                <div class="col-12 pt-3">
                         <div>
-                            <div class="row pt-5">
+                            <div class="row pt-1">
                                 <div class="col-md-6">
                                 <i class=""></i>
                                 <h1 class="service-card-title">

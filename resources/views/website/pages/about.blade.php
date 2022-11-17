@@ -21,6 +21,5 @@
         <x-counter/>
         <x-mission/>
         <x-certificate/>
-        <br>
     </main>
 @endsection

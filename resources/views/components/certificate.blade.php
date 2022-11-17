@@ -57,7 +57,7 @@
     <div class="col-12">
         <h1 class="text-center" style="font-size: 2.6rem; color: #99cd08;">@lang('translates.certificates')</h1>
     </div>
-    <div class="brands owl-carousel mt-5" >
+    <div class="brands owl-carousel mt-1" >
         @foreach($certificates as $certificate)
             <div class="item">
                     <img id="myImg" src="{{asset(Voyager::image($certificate->getAttribute('image')))}}" height="250" width="500" alt="{{$certificate->getAttribute('title')}}">
