@@ -1,4 +1,21 @@
 <style>
+
+    .certificate {
+        padding: 1rem 0;
+    }
+    .certificate .item {
+        padding: 0 1rem;
+
+    }
+    .certificate img {
+      max-width: 100%;
+    }
+    .certificate .owl-carousel {
+        display: flex;
+        align-items: center;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
     #myImg {
         border-radius: 5px;
         cursor: pointer;
@@ -59,10 +76,10 @@
 <div style="background-color: rgba(172,174,194,0.94)">
 <section class="container certificates mb-2 ">
 
-    <div class="brands owl-carousel mt-1" >
+    <div class="certificate owl-carousel mt-1" >
         @foreach($certificates as $certificate)
-            <div class="item">
-                    <img id="myImg" src="{{asset(Voyager::image($certificate->getAttribute('image')))}}" alt="{{$certificate->getAttribute('title')}}">
+            <div class="item" >
+                    <img id="myImg"  src="{{asset(Voyager::image($certificate->getAttribute('image')))}}" alt="{{$certificate->getAttribute('title')}}">
             </div>
         @endforeach
     </div>
