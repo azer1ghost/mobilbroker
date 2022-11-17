@@ -1,4 +1,4 @@
-<section class="mission mt-1" style=" height: 400px;">
+<section class="mission mt-3" style=" height: 400px;">
     <div class="container">
         <div class="row">
             <div class="col-12">
