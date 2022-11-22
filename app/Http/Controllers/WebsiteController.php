@@ -31,6 +31,10 @@ class WebsiteController extends Controller
         $meta = meta('about', ['body']);
         return view('website.pages.about', compact('meta'));
     }
+    public function policy()
+    {
+        return view('website.pages.policy');
+    }
 
     public function service(Service $service)
     {
