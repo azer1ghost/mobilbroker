@@ -7,7 +7,7 @@
     <div class="row my-2">
         <div class="col-12" style="text-align: center">
 
-             <img style="border-radius: 15px"  alt="Policy image" src=
+             <img style="border-radius: 15px" height="800" alt="Policy image" src=
                   @if(app()->getLocale() == 'az')
                   "{{Voyager::image(setting('site.policy'))}}"
                   @elseif(app()->getLocale() == 'ru')
