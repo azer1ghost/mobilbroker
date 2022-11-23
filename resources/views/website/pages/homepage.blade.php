@@ -28,6 +28,8 @@
     <x-services/>
     <x-calculator/>
     <x-solution/>
+    <br>
+    <x-certificate/>
     <x-brands/>
     </main>
     <!-- Messenger Sohbet Eklentisi Code -->
