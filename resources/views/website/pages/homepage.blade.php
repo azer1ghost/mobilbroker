@@ -29,8 +29,8 @@
     <x-calculator/>
     <x-solution/>
     <br>
-    <x-certificate/>
     <x-brands/>
+    <x-certificate/>
     </main>
     <!-- Messenger Sohbet Eklentisi Code -->
     <div id="fb-root"></div>
