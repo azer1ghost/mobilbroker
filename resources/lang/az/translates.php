@@ -18,7 +18,7 @@ return [
     'name' => 'Ad Soyad',
     'email' => 'Elektron Poçt',
     'phone' => 'Nömrə',
-    'certificates' => 'Sertifikatlarımız',
+    'certificates' => 'Sertifikat və Mükafatlarımız',
     'subject' => 'Mövzu',
     'note' => 'Qeyd',
     'send' => 'Göndər',
