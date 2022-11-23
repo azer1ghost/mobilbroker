@@ -4,7 +4,7 @@
     </div>
     <div class="owl-carousel">
         @foreach($brands as $brand)
-            <div class="item" style="padding-top: 1rem;padding-bottom: 1rem">
+            <div class="item" style="padding-top: 1rem !important;padding-bottom: 1rem !important;">
                 <img src="{{asset(Voyager::image($brand->getAttribute('image')))}}"  height="100" alt="{{$brand->getAttribute('title')}}">
             </div>
         @endforeach
