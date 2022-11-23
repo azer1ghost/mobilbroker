@@ -30,7 +30,6 @@
     <x-solution/>
     <br>
     <x-brands/>
-    <x-certificate/>
     </main>
     <!-- Messenger Sohbet Eklentisi Code -->
     <div id="fb-root"></div>
