@@ -25,5 +25,21 @@ return [
     'services' => 'Services',
     'online_contact' => 'Online Contact',
     'rights' => 'All rights is protected.',
+    'purpose' => 'Purpose',
+    'principles' => 'Principles',
+    'target' => 'Target',
+    'values' => 'Values',
+    'purpose_description' => 'As a Mobil Broker, the purpose of our business is local and
+                                    foreign citizens, individuals and legal entities
+                                    provide service in our business locations
+                                    is to do',
+    'principles_description'=>'Operability, transparency, accuracy and responsibility!
+                                    We work with our clients with these business principles
+                                    We do it in the least amount of time and in the most cost-effective way',
+    'target_description'=>'Our goal is innovative steps
+                                        arr our range, activity
+                                        in our field in the country and internationally
+                                        is to be a leading company.',
+    'values_description'=>'At the heart of our business is the customer phenomenon. Our business principles are also focused on customer satisfaction. We believe in customer and company friendship, and always value our relationships.',
     'footer_description' => 'Mobile Broker LLC, a subsidiary of MOBIL GROUP, is a modern customs office based on international experience. Mobile Broker has been operating as a customs broker since 2017. The company has a large network of complex customs services.',
 ];
