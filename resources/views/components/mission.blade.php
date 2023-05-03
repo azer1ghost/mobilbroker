@@ -11,23 +11,18 @@
                                 <div class="col-md-6">
                                 <i class=""></i>
                                 <h1 class="service-card-title">
-                                    Məqsəd
+                                    @lang('translates.purpose')
                                 </h1>
                                 <p class="service-card-text">
-                                    Mobil Broker olaraq, işimizin məqsədi yerli və
-                                    xarici vətəndaşları, fiziki və hüquqi şəxsləri
-                                    fəaliyyət isqamətlərimizdə xidməmizlə təmin
-                                    etməkdir
+                                    @lang('translates.purpose_description')
                                 </p>
                                 </div>
                                 <div class="col-md-6">
                                 <h1 class="service-card-title">
-                                    Prinsiplər
+                                    @lang('translates.principles')
                                 </h1>
                                 <p class="service-card-text">
-                                    Operavlik, şəffaflıq, dəqiqlik və məsuliyyətlilik!
-                                    Biz bu iş prinsiplərimizlə müştərilərimizin işlərini
-                                    minimum vaxtda, ən sərfəli şəkildə yerinə yeririk
+                                    @lang('translates.principles_description')
                                 </p>
                                 </div>
                             </div>
@@ -35,25 +30,18 @@
                             <div class="row  pt-5">
                                 <div class="col-md-6">
                                     <h1 class="service-card-title">
-                                        Hədəf
+                                        @lang('translates.target')
                                     </h1>
                                     <p class="service-card-text">
-                                        Bizim hədəfimiz yenilikçi addımlarla
-                                        çeşidimizi arrmaq, fəaliyyət
-                                        sahəmizüzrə ölkədə və beynəlxalq miqyasda
-                                        qabaqcıl şirkət olmaqdır.
+                                        @lang('translates.target_description')
                                     </p>
                                 </div>
                                 <div class="col-md-6">
                                     <h1 class="service-card-title">
-                                        Dəyərlər
+                                        @lang('translates.values')
                                     </h1>
                                     <p class="service-card-text">
-                                        Bizim işimizin mərkəzində müştəri fenomeni
-                                        dayanır. İş prinsiplərimiz də müştəri
-                                        məmnuniyyənə köklənib.
-                                        Biz müştəri və şirkət dostluğuna inanır,
-                                        əlaqələrimizə hər zaman dəyər veririk.
+                                        @lang('translates.values_description')
                                     </p>
                                 </div>
                             </div>
