@@ -25,5 +25,6 @@ return [
     'services' => 'Services',
     'online_contact' => 'Online Contact',
     'rights' => 'All rights is protected.',
+    'satisfaction_form' => 'Get Satisfaction Form',
     'footer_description' => 'Mobile Broker LLC, a subsidiary of MOBIL GROUP, is a modern customs office based on international experience. Mobile Broker has been operating as a customs broker since 2017. The company has a large network of complex customs services.',
 ];

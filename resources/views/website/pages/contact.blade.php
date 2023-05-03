@@ -26,6 +26,8 @@
                                     {{setting('site.email')}}</a></li>
                             <li class="m-2"><a class="footer-link text-primary" href="#"><i
                                         class="far fa-map-marker-alt"></i> {{setting('site.address')}}</a></li>
+                            <li class="m-2"><a class="footer-link text-primary" href="https://my.mobilgroup.az/cs?url=mb-sat"><i
+                                        class="far fa-forward"></i> @lang('translates.satisfaction_form')</a></li>
                         </ul>
                     </div>
                 </div>
