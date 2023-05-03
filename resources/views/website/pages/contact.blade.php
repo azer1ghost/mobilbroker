@@ -9,10 +9,12 @@
             <div class="row my-2 flex-md-row-reverse">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top"  src="https://my.mobilgroup.az/assets/images/logo.svg" alt="Card image cap">
+                        <img class="card-img-top" src="https://my.mobilgroup.az/assets/images/logo.svg"
+                             alt="Card image cap">
                         <h4 class="footer-title">@lang('translates.communication')</h4>
                         <ul class="contact-info">
-                            <li class="m-2"><a class="footer-link text-primary" href="tel:{{setting('site.short_phone')}}"><i
+                            <li class="m-2"><a class="footer-link text-primary"
+                                               href="tel:{{setting('site.short_phone')}}"><i
                                         class="fal fa-user-headset"></i>
                                     {{setting('site.short_phone')}}</a></li>
                             <li class="m-2"><a class="footer-link text-primary" href="tel:{{setting('site.phone')}}"><i
@@ -26,8 +28,9 @@
                                     {{setting('site.email')}}</a></li>
                             <li class="m-2"><a class="footer-link text-primary" href="#"><i
                                         class="far fa-map-marker-alt"></i> {{setting('site.address')}}</a></li>
-                            <li class="m-2"><a class="footer-link text-primary" href="https://my.mobilgroup.az/cs?url=mb-sat"><i
-                                        class="far fa-forward"></i> @lang('translates.satisfaction_form')</a></li>
+                            <li class="m-2"><a class="footer-link text-primary"
+                                               href="https://my.mobilgroup.az/cs?url=mb-sat">
+                                    <i class="fas fa-external-link"></i> @lang('translates.satisfaction_form')</a></li>
                         </ul>
                     </div>
                 </div>
