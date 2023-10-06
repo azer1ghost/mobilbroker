@@ -30,8 +30,7 @@ $( document ).ready(function() {
     $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
             loop: true,
-            autoplay:true,
-            autoplayTimeout:2000,
+            autoplay:false,
             responsiveClass: true,
             responsive: {
                 0: {
