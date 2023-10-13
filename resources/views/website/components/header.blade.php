@@ -18,22 +18,22 @@
                     <a href="https://api.whatsapp.com/send?phone={{setting('site.phone')}}" target="_blank"><span style="font-size: 23px;color: #111f6e" class="fab fa-whatsapp me-2"></span></a>
                 </div>
 
-                <div class="dropdown head-lang">
-                    <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">
-                        {{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
-                        {{ucfirst(app()->getLocale())}}
-                    </div>
-                    <div class="dropdown-menu" aria-labelledby="language" style="min-width: auto !important;color: #111f6e">
-                        @foreach(config('voyager.multilingual.locales') as $locale)
-                            <li>
-                                <a class="dropdown-item" href="{{route('locale', $locale)}}">
-                                    {{--                                    <span class="flag-icon flag-icon-{{$locale}}"></span>--}}
-                                    {{ucfirst($locale)}}
-                                </a>
-                            </li>
-                        @endforeach
-                    </div>
-                </div>
+{{--                <div class="dropdown head-lang">--}}
+{{--                    <div class="dropdown-toggle" id="language" data-bs-toggle="dropdown" aria-expanded="false">--}}
+{{--                        --}}{{--                        <span class="flag-icon flag-icon-{{app()->getLocale()}}"></span>--}}
+{{--                        {{ucfirst(app()->getLocale())}}--}}
+{{--                    </div>--}}
+{{--                    <div class="dropdown-menu" aria-labelledby="language" style="min-width: auto !important;color: #111f6e">--}}
+{{--                        @foreach(config('voyager.multilingual.locales') as $locale)--}}
+{{--                            <li>--}}
+{{--                                <a class="dropdown-item" href="{{route('locale', $locale)}}">--}}
+{{--                                    --}}{{----}}{{--                                    <span class="flag-icon flag-icon-{{$locale}}"></span>--}}
+{{--                                    {{ucfirst($locale)}}--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
+{{--                        @endforeach--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

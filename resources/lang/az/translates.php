@@ -36,11 +36,11 @@ return [
     'purpose_description' => 'Mobil Broker olaraq, işimizin məqsədi yerli və
                                     xarici vətəndaşları, fiziki və hüquqi şəxsləri
                                     fəaliyyət istiqamətlərimizdə xidmətimizlə təmin
-                                    etməkdir',
+                                    etməkdir.',
     'principles_description'=>'Operativlik, şəffaflıq, dəqiqlik və məsuliyyətlilik!
                                     Biz bu iş prinsiplərimizlə müştərilərimizin işlərini
-                                    minimum vaxtda, ən sərfəli şəkildə yerinə yetiririk',
-    'target_description'=>'Bizim hədəfimiz yenilikçi addımlarla
+                                    minimum vaxtda, ən sərfəli şəkildə yerinə yetiririk.',
+    'target_description'=>'Bizim hədəfimiz yenilikçi addımlarla xidmət
                                         çeşidimizi artırmaq, fəaliyyət
                                         sahəmiz üzrə ölkədə və beynəlxalq miqyasda
                                         qabaqcıl şirkət olmaqdır.',
